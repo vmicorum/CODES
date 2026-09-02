@@ -1,0 +1,47 @@
+title1 {margin: 0;font-family: var(--font3);font-weight: 700;letter-spacing: 1px;color: var(--co-1);text-shadow: 1px 1px 2px var(--neutralDark);text-transform: uppercase;font-size: 36px;display: flex;align-items: flex-start;margin-bottom: 10px;}
+title1::before {content: "";flex-grow: 1;height: 3px;background: linear-gradient(50deg, var(--co-1), var(--co-1a), var(--co-2a), var(--co-2));min-width: 10px;margin: auto;}
+title1:after {content: "";flex-grow: 1;height: 3px;background: linear-gradient(50deg, var(--co-2), var(--co-2a), var(--co-1a), var(--co-1));min-width: 10px;margin: auto;}
+title2 {margin: 10px 0;text-shadow: 1px 1px 1px var(--textColor);text-transform: uppercase;font-family: var(--fontTitle);font-weight: 700;letter-spacing: -1px;color: var(--co-2);display: flex;align-items: flex-start;margin-bottom: 10px;font-size: 28px;}
+title2:before {content: "";flex-grow: 1;height: 2px;background: linear-gradient(to right, var(--co-1), var(--co-2));max-width: 50px;margin: auto;}
+title2:after {content: "";flex-grow: 1;height: 2px;background: linear-gradient(to right, var(--co-1), var(--co-2));min-width: 10px;margin: auto;}
+title3 {margin: 0;text-shadow: 1px 1px 1px var(--textColor);text-transform: uppercase;font-family: var(--fontTitle);font-weight: 700;letter-spacing: -1px;color: var(--co-1);display: flex;align-items: flex-start;font-size: 24px;margin-bottom: 10px;}
+title3:before {content: "";flex-grow: 1;height: 2px;background: linear-gradient(to left, var(--co-1), var(--co-2));min-width: 10px;margin: auto;}
+title3:after {content: "";flex-grow: 1;height: 2px;background: linear-gradient(to left, var(--co-1), var(--co-2));max-width: 75px;margin: auto;}
+title4 {margin: 0;font-family: var(--font3);font-weight: 700;text-transform: uppercase;border-bottom: 2px solid var(--co-1);text-align: center;color: var(--co-2);letter-spacing: 1px;padding-bottom: 5px;font-size: 16px;}
+title5 {margin: 0;font-family: var(--font3);font-weight: 700;text-transform: uppercase;border-bottom: 2px solid var(--co-2);text-align: center;color: var(--co-1);letter-spacing: 1px;padding-bottom: 5px;font-size: 16px;}
+
+hr {border: none;height: 2px; background: linear-gradient(to right, var(--neutral), var(--neutralDark), var(--neutral));margin: 15px 0;}
+
+box {padding: 10px 25px;text-align: justify;line-height: 140%;letter-spacing: 1px;}
+
+bbx {font-family: var(--font3);font-size: 14px;color: var(--textColor);text-shadow: 1px 1px 0 var(--neutralDark);background: linear-gradient(to left, var(--co-1), var(--co-1a), var(--co-1));padding: 0 5px;border-radius: 5px;margin: 0 1px;letter-spacing: 1px;}
+bbx1 {font-family: var(--font3);font-size: 14px;color: var(--textColor);text-shadow: 1px 1px 0 var(--neutralDark);background: linear-gradient(to left, var(--co-2), var(--co-2a), var(--co-2));padding: 0 5px;border-radius: 5px;margin: 0 1px;letter-spacing: 1px;}
+bbx2 {font-family: var(--font3);font-size: 14px;color: var(--textColor);text-shadow: 1px 1px 0 var(--neutralDark);background: linear-gradient(to left, var(--co-1), var(--co-1a), var(--co-2a), var(--co-2));padding: 0 5px;border-radius: 5px;margin: 0 1px;letter-spacing: 1px;}
+
+zz {letter-spacing: 1px;text-transform: uppercase;font-size: 10px;padding: 0 4px;font-style: normal;color: var(--textColor);}
+zz1 {letter-spacing: 1px;text-transform: uppercase;font-size: 10px;padding: 0 4px;font-style: normal;color: var(--co-1);}
+zz2 {letter-spacing: 1px;text-transform: uppercase;font-size: 10px;padding: 0 4px;font-style: normal;color: var(--co-2);}
+zz3 {letter-spacing: 1px;text-transform: uppercase;font-size: 10px;padding: 0 4px;font-style: normal;background: linear-gradient(45deg, var(--co-1), var(--co-1a), var(--co-2a), var(--co-2));-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+
+u {border-bottom: 1px dashed var(--co-1);text-decoration: none;text-transform: uppercase;font-weight: 700;color: var(--textColor);letter-spacing: 0;}
+u1 {border-bottom: 1px dashed var(--co-2);text-decoration: none;text-transform: uppercase;font-weight: 700;color: var(--textColor);letter-spacing: 0;}
+u2 {border-bottom: 1px dashed var(--co-1);text-decoration: none;text-transform: uppercase;font-weight: 700;color: var(--co-2);letter-spacing: 0;}
+u3 {border-bottom: 1px dashed var(--co-2);text-decoration: none;text-transform: uppercase;font-weight: 700;color: var(--co-1);letter-spacing: 0;}
+
+aa {text-transform: uppercase;text-decoration: none;font-weight: bold;transition: 0.5s all ease-in-out;letter-spacing: 0;color: var(--co-1)!important;}
+aa:hover {letter-spacing: 2px;transition: 0.5s all ease-in-out;color: var(--co-2)!important;}
+aa1 {text-transform: uppercase;text-decoration: none;font-weight: bold;transition: 0.5s all ease-in-out;letter-spacing: 0;color: var(--co-1)!important;}
+aa1:hover {letter-spacing: 2px;transition: 0.5s all ease-in-out;color: var(--textColor)!important;}
+aa2 {text-transform: uppercase;text-decoration: none;font-weight: bold;transition: 0.5s all ease-in-out;letter-spacing: 0;color: var(--co-2)!important;}
+aa2:hover {letter-spacing: 2px;transition: 0.5s all ease-in-out;color: var(--co-1)!important;}
+aa3 {text-transform: uppercase;text-decoration: none;font-weight: bold;transition: 0.5s all ease-in-out;letter-spacing: 0;color: var(--co-2)!important;}
+aa3:hover {letter-spacing: 2px;transition: 0.5s all ease-in-out;color: var(--textColor)!important;}
+
+quote {text-align: justify;padding: 5px 25px 5px 20px;border-left: 2px solid var(--co-1);}
+quote1 {text-align: justify;padding: 5px 25px 5px 20px;border-left: 2px solid var(--co-2);}
+quote2 {font-family: var(--fontQuote);text-align: center;display: block;text-transform: uppercase;font-size: 24px;letter-spacing: -1px;padding: 0 25px;line-height: 100%;font-weight: 300;}
+quote2:before {content: '\275D';opacity: 0.5;font-size: 32px;color: var(--co-1);}
+quote2:after {content: '\275E';opacity: 0.5;font-size: 32px;color: var(--co-1);}
+quote3 {font-family: var(--fontQuote);text-align: center;display: block;text-transform: uppercase;font-size: 24px;letter-spacing: -1px;padding: 0 25px;line-height: 100%;font-weight: 300;}
+quote3:before {content: '\275D';opacity: 0.5;font-size: 32px;color: var(--co-2);}
+quote3:after {content: '\275E';opacity: 0.5;font-size: 32px;color: var(--co-2);}
