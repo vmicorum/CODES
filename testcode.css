@@ -11,7 +11,7 @@
 .fiche-champ-label {display: block;font-size: smaller;text-transform:uppercase;letter-spacing: 0.06em;color: var(--co-1);margin-bottom: 5px;}
 .fiche-champ-valeur { font-size: 0.95em; color: var(--ink); } .fiche-champ.large { grid-column: 1 / -1; }
 .fiche-infos {display: flex;gap: 14px;background: var(--bg-panel);border: 1px solid var(--line);padding: 16px;margin: 24px 0;}
-.fiche-avatar {width: 150px;height: 250px;flex-shrink: 0;background-size: cover;background-position: center;border: 1px solid var(--co-1);}
+.fiche-avatar {width: 150px;height: 250px;flex-shrink: 0;background-size: cover;border: 1px solid var(--co-1);}
 .fiche-infos-texte {flex: 1;font-size: 0.92em;line-height: 1.7;color: var(--ink-dim);} .fiche-infos-texte_cadre {overflow:auto;height:225px;}
 .fiche-infos-texte .titre {display: block;color: var(--co-1);font-size: small;text-transform:uppercase;letter-spacing: 0.06em;margin-bottom: 8px;}
 .fiche-histoire {background: var(--bg-panel);border: 1px solid var(--line);padding: 26px 28px;}
